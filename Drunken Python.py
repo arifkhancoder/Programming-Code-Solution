@@ -1,4 +1,6 @@
 #ord() and char() details : https://realpython.com/python-strings/
+#Edabit (medium)
+#Solved By Md Ariful Islam
 
 def str_to_int(num_str):
 	num = 0
