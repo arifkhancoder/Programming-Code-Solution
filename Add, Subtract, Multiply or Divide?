@@ -1,0 +1,25 @@
+
+
+#solved By md Ariul Islam
+#Edabit(Medium)
+
+
+
+def operation(num1, num2):
+  add=num1+num2
+  sub=num1-num2
+  mul=num1*num2
+  div=num1/num2
+  if add==24:
+    return 'added'
+  elif(sub==24):
+    return 'subtracted'
+  elif(div==24):
+    return 'divided'
+  elif(mul==24):
+    return 'multiplied'
+  else:
+    return None
+    
+    
+    
