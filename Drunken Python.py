@@ -1,3 +1,5 @@
+#ord() and char() details : https://realpython.com/python-strings/
+
 def str_to_int(num_str):
 	num = 0
 	for char in num_str:
