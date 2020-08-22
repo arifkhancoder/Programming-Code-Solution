@@ -1,7 +1,7 @@
 
 
 #solved by Md Ariful Islam
-#Edabit(Hard)
+
 
 def pentagonal(num):
 	up = 5 * num * num - 5 * num + 2
