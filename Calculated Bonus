@@ -1,0 +1,28 @@
+
+
+#solved by Md Ariful Islam
+
+def bonus(days):
+	num=days
+	result=0
+	if num>=0 and num<32:
+		result=0
+		return result
+	elif num>=33 and num<=40:
+		result= (num%32)*325
+		return result
+	elif num>=41 and num<=48:
+		first=(num%32)
+		second=first-8
+		result=second*550+(first-second)*325
+		return result
+	else:
+		first=(num%32)
+		firstiter=first-10
+		seconditer=firstiter
+		thirdtier=10-firstiter
+		result=firstiter*325+seconditer*550+thirdtier*600
+		return result
+	
+  
+  
