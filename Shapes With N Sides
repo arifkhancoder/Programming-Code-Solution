@@ -1,7 +1,7 @@
 
 
 #solved by Md Ariful Islam
-#Edabit(Easy)
+
 
 def n_sided_shape(n):
 	dict = {1: "circle", 2: "semi-circle", 3: "triangle", 4: "square", 5: "pentagon", 6: "hexagon", 7: "heptagon",
