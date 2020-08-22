@@ -1,0 +1,11 @@
+
+#solved by Md Ariful Islam
+#Edabit(Hard)
+
+def int_within_bounds(n, lower, upper):
+	if (type(n) == int):
+		return n in range(lower, upper)
+	else:
+		return False
+    
+    
