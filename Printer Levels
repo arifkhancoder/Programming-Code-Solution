@@ -1,0 +1,11 @@
+
+#Solved by Md Ariful Islam
+
+def ink_levels(inks):
+	list=[]
+	list.append(inks.get('cyan'))
+	list.append(inks.get('magenta'))
+	list.append(inks.get('yellow'))
+	return min(list)
+  
+  
