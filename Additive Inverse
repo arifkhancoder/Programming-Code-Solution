@@ -1,0 +1,8 @@
+
+#solved By Md Ariful Islam
+
+
+def additive_inverse(lst):
+	return [-x for x in lst]
+  
+  
