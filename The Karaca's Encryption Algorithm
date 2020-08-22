@@ -1,0 +1,14 @@
+
+
+#solved by Md Ariful Islam
+#Edabit(Hard)
+
+def encrypt(word):
+	dict = {'a': '0', 'e': '1', 'i': '2', 'o': '2', 'u': '3'}
+	string = word
+	s = string[::-1]
+
+	translation = s.maketrans(dict)
+	return s.translate(translation)+'aca'
+  
+  
