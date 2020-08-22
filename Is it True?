@@ -1,0 +1,15 @@
+
+
+#solved by Md Ariful Islam
+
+def is_it_true(relation):
+	string=relation
+	s='='
+	if s in string:
+		s= string.replace('=','==')
+		return eval(s)
+	else:
+		return eval(string)
+    
+    
+    
