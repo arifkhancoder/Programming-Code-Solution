@@ -1,0 +1,14 @@
+
+
+#solved By Md Ariful Islam
+
+def missing_angle(angle1, angle2):
+	angle=180-(angle1+angle2)
+	if angle<90:
+		return 'acute'
+	elif angle==90:
+		return 'right'
+	else:
+		return 'obtuse'
+    
+    
