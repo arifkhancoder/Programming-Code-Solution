@@ -1,0 +1,6 @@
+
+#solved by Md Ariful Islam
+
+import re
+pattern = '(?<!^cookie)bad'
+
