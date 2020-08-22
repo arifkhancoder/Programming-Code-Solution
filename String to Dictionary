@@ -1,0 +1,10 @@
+
+
+#solved by Md Ariful Islam
+
+def str_to_dict(lst):
+	s=dict(e.split("=") for e in lst)
+	return s
+	
+  
+  
