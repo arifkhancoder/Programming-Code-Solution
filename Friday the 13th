@@ -1,0 +1,16 @@
+
+
+#solve Md Ariful Islam
+#Edabit(Hard)
+
+import datetime
+def has_friday_13(month, year):
+  d = datetime.datetime(year,month , 13)
+  day = d.strftime("%A")
+  if (day=='Friday'):
+      return True
+  else:
+      return False
+	
+  
+  
