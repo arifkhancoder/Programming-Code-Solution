@@ -1,0 +1,11 @@
+
+
+#solved by md Ariful Islam
+
+def word_lengths(lst):
+	newlist = [len(i) for i in lst]
+	return newlist
+  
+  
+  
+	
