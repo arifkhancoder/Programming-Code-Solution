@@ -1,7 +1,7 @@
 
 
 #solve Md Ariful Islam
-#Edabit(Hard)
+
 
 import datetime
 def has_friday_13(month, year):
