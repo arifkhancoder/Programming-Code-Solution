@@ -2,11 +2,8 @@
 #solved By Md Ariful Islam
 
 def count_datatypes(*args):
-  return [0, 0, 0, 0, 0, 0] if args == () else [
-        sum([1 for ind in args if ind is not True and ind is not False and isinstance(ind, int)]) ,
-        sum([1 for ind in args if isinstance(ind, str)]), sum([1 for ind in args if isinstance(ind, bool)]),
-        sum([1 for ind in args if isinstance(ind, list)]), sum([1 for ind in args if isinstance(ind, tuple)]),
-        sum([1 for ind in args if isinstance(ind, dict)])]
+    lst = [type(i) for i in args]
+    return [lst.count(i) for i in (int, str, bool, list, tuple, dict)]
         
         
-        
+
