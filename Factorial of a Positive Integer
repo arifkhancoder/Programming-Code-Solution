@@ -1,0 +1,16 @@
+
+
+#solved By Md Ariful Islam
+
+
+def factorial(Z):
+    fact = 1
+    if Z == 0:
+        return 1
+    else:
+        for i in range(1, Z + 1):
+            fact *= i
+        return fact
+        
+        
+        
