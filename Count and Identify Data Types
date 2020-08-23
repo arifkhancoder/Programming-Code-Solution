@@ -1,0 +1,12 @@
+
+#solved By Md Ariful Islam
+
+def count_datatypes(*args):
+  return [0, 0, 0, 0, 0, 0] if args == () else [
+        sum([1 for ind in args if ind is not True and ind is not False and isinstance(ind, int)]) ,
+        sum([1 for ind in args if isinstance(ind, str)]), sum([1 for ind in args if isinstance(ind, bool)]),
+        sum([1 for ind in args if isinstance(ind, list)]), sum([1 for ind in args if isinstance(ind, tuple)]),
+        sum([1 for ind in args if isinstance(ind, dict)])]
+        
+        
+        
