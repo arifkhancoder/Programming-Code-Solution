@@ -1,0 +1,17 @@
+
+
+#solved By Md Ariful Islam
+
+
+def censor_string(txt, lst, char):
+    l = txt.split(' ')
+    print(l)
+
+    l2 = [Z.lower() for Z in lst]
+
+
+    return ' '.join([char*len(word) if word.lower() in l2 else word for word in l])
+    
+    
+    
+    
