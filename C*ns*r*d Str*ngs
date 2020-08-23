@@ -1,0 +1,48 @@
+
+
+#solved By Md Ariful Islam
+
+def uncensor(txt, vowels):
+	words = txt.split()
+	letters = []
+	for i in words:
+    #Wh*r*
+    #d*d
+    #my
+    # v*w * ls
+    # g*?
+		for j in i:
+        # W
+        # h
+        # *
+        # r
+        # *
+        # d
+        # *
+        # d
+        # m
+        # y
+        # v
+        # *
+        # w
+        # *
+        # l
+        # s
+        # g
+        # *
+        # ?
+			letters.append(j)
+        # ['W', 'h', '*', 'r', '*', ' ', 'd', '*', 'd', ' ', 'm', 'y', ' ', 'v', '*', 'w', '*', 'l', 's', ' ', 'g', '*', '?']  no space between letter
+		letters.append(" ")
+    # ['W', 'h', '*', 'r', '*', ' ', 'd', '*', 'd', ' ', 'm', 'y', ' ', 'v', '*', 'w', '*', 'l', 's', ' ', 'g', '*', '?',
+    #  ' ']
+
+	for i in vowels:
+		s=letters[letters.index("*")] = i
+	return "".join(letters).rstrip()  #to join those letters and remove right side space
+
+
+
+
+
+	
