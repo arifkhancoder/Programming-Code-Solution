@@ -1,0 +1,8 @@
+
+
+#solved by Md Ariful Islam
+
+def space_me_out(s):
+	return ' '.join(s)
+  
+  
