@@ -1,0 +1,20 @@
+
+
+
+#Solved By Md Ariful Islam
+
+
+def no_duplicate_letters(phrase):
+    newline = phrase.split(' ')
+    for e in newline:
+        for e2 in e:
+            print(e2)
+            if e.count(e2) > 1:
+                return False
+
+    return True
+    
+    
+    
+    
+    
