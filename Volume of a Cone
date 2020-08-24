@@ -1,0 +1,11 @@
+
+
+
+#solved By Md Ariful Islam
+
+
+import math
+def cone_volume(h, r):
+  return round((math.pi*r*r*h)/3,2)
+  
+  
