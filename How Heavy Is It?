@@ -1,0 +1,11 @@
+
+
+#solved By Md Ariful Islam
+
+
+import math
+def weight(r, h):
+  heavy=math.pi*r*r*h*0.001
+  return round(heavy,2)
+
+
