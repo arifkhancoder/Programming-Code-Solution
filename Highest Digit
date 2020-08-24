@@ -1,0 +1,15 @@
+
+
+#solved By Md Ariful Islam
+
+
+def highest_digit(num):
+  s=str(num)
+  list=[]
+  for i in s:
+    list.append(i)
+
+  return int(max(list))
+  
+  
+  
