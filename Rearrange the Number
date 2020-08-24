@@ -1,0 +1,20 @@
+
+
+#solved By Md Ariful Islam
+
+def rearranged_difference(num):
+  s = str(num)
+  list = []
+  for i in s:
+    list.append(i)
+  sList = sorted(list)
+  maxList=sList[::-1]
+  rearrangeMaxList = ''.join(maxList)
+  rearrangeMinList=''.join(sList)
+  return int(rearrangeMaxList)-int(rearrangeMinList)
+  
+  
+  
+  
+  
+  
