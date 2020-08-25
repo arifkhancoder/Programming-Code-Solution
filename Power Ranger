@@ -1,0 +1,13 @@
+
+
+#solved By Md Ariful Islam
+
+
+def power_ranger(power, minimum, maximum):
+	total = 0
+	for i in range(int(minimum**(1/power)), int(maximum**(1/power) + 1)):
+		if minimum <= i**power <= maximum:
+			total += 1
+	return total
+
+
