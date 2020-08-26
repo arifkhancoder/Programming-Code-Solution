@@ -1,0 +1,19 @@
+
+
+#solved By Md Ariful Islam
+
+
+def count_characters(s):
+    element=[]
+    result=0
+    for i in s:
+      for s in i:
+		  
+          count=i.count(s)
+          element.append(count)
+          break
+    for i in element:
+      result+=i
+    return result
+
+
