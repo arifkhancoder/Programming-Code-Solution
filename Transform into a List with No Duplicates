@@ -1,0 +1,9 @@
+
+#solved By Md Ariful Islam
+
+
+def setify(lst):
+	return sorted(list(set(lst)))
+  
+  
+  
