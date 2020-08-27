@@ -1,0 +1,14 @@
+
+
+#solved By Md Ariful Islam
+
+def does_rhyme(txt1, txt2):
+    last1,last2 = txt1.lower().split()[-1],txt2.lower().split()[-1]
+    in_first = [a for a in last1 if a in ['a','e','i','o','u']]
+    in_second = [a for a in last2 if a in ['a', 'e', 'i', 'o', 'u']]
+
+    return in_first == in_second
+    
+   
+   
+   
