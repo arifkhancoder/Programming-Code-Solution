@@ -1,0 +1,11 @@
+
+
+#solved By Md Ariful Islam
+
+
+def unique_sort(lst):
+	return sorted(set(lst))
+	
+  
+  
+  
