@@ -1,0 +1,23 @@
+
+
+#solved By Md Ariful Islam
+
+def max_collatz(a):
+    "Compute the Collatz sequence starting at a and ending at 1."
+    # Initialize list with first value a
+    sequence = [a]
+    # Compute values until we reach 1
+    while sequence[-1] > 1:
+        # Check if the last element in the list is even
+        if sequence[-1] % 2 == 0:
+            # Compute and append the new value
+            sequence.append(sequence[-1] // 2)
+        else:
+            # Compute and append the new value
+            sequence.append(3*sequence[-1] + 1)
+
+    return max(sequence)
+
+	
+  
+  
