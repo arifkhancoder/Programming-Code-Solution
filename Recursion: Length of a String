@@ -1,0 +1,8 @@
+
+#solved By Md Ariful Islam
+
+
+def length(txt):
+	return len(txt)
+	
+  
