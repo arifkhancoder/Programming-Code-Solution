@@ -1,0 +1,10 @@
+
+
+#solved By Md Ariful Islam
+
+
+def correct_signs(txt):
+	return eval(txt)
+  
+  
+  
