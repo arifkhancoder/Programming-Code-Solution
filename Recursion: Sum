@@ -1,0 +1,12 @@
+
+
+#solved By Md Ariful Islam
+
+def sum_numbers(n):
+    result=0
+    for i in range(0,n+1):
+        result+=i
+    return result
+	
+  
+  
