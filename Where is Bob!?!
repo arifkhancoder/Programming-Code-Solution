@@ -1,0 +1,12 @@
+
+
+#solved By Md Ariful Islam
+
+
+def find_bob(names):
+    if names.count('Bob')==1 or names.count('bob'):
+        return names.index('Bob')
+    else:
+        return -1
+        
+        
