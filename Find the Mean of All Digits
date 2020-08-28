@@ -1,0 +1,14 @@
+#solved By Md Ariful Islam
+
+def mean(num):
+    snum=str(num)
+    result=0
+    while(num>=1):
+        last=num%10
+        result=result+last
+        num=num//10
+
+    return round(result/len(snum))
+    
+    
+    
