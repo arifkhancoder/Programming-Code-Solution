@@ -1,0 +1,17 @@
+#solved By Md Ariful Islam
+
+
+def count_ones(num):
+	BinaryRep = bin(num)
+	list = [i for i in BinaryRep]
+	NList = []
+	for i in list:
+		if i == '1':
+			NList.append(i)
+	result=0
+	for i in NList:
+		result+=int(i)
+	return result
+	
+  
+  
