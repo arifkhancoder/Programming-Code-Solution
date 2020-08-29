@@ -1,0 +1,13 @@
+#solved By Md Ariful Islam
+
+
+import datetime
+def time_for_milk_and_cookies(date):
+	DateString=date
+	if DateString.day==24 and DateString.month==12:
+		return True
+	else:
+		return False
+	
+  
+  
