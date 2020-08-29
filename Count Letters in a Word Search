@@ -1,0 +1,14 @@
+
+#solved By Md Ariful Islam
+
+
+def letter_counter(lst, letter):
+	count=0
+	for i in lst:
+		for j in i:
+			if letter in j:
+				count+=1
+	return count
+  
+  
+  
