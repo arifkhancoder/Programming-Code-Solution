@@ -1,0 +1,14 @@
+
+#solved By Md Ariful Islam
+
+
+def filter_list(lst):
+	list=[]
+	for i in lst:
+		if type(i)==int:
+			list.append(i)
+
+	return list
+	
+  
+  
