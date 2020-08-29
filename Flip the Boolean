@@ -1,0 +1,13 @@
+#solve By Md Ariful Islam
+
+
+def reverse(arg):
+    if isinstance(arg,bool):
+        if arg==True:
+            return False
+        else:
+            return True
+    else:
+        return "boolean expected"
+        
+        
