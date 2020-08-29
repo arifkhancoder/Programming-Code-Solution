@@ -1,0 +1,15 @@
+
+#solved By Md Ariful Islam
+
+
+def nth_smallest(lst, n):
+    SList=sorted(lst)
+    GetIndex=n-1
+    if n>len(lst):
+        return None
+    else:
+        return SList[GetIndex]
+        
+        
+        
+        
