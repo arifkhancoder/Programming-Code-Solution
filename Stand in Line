@@ -1,0 +1,15 @@
+
+
+#solved By Md Ariful Islam
+
+
+def next_in_line(lst, num):
+    while len(lst)!=0:
+        FirstIndex=lst[0]
+        lst.remove(FirstIndex)
+        lst.append(num)
+        return lst
+    return [num] if []  else "No list has been selected"
+    
+   
+   
