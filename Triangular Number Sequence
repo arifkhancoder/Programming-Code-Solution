@@ -1,0 +1,7 @@
+
+#solved By Md Ariful Islam
+
+def triangle(n):
+	return n*(n+1)/2
+  
+  
