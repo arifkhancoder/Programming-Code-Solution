@@ -1,0 +1,11 @@
+#solved By Md Ariful Islam
+
+
+def second_largest(lst):
+	Slist=sorted(lst)
+	Slist.pop()
+	return max(Slist)
+	
+  
+  
+  
