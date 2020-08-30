@@ -1,0 +1,11 @@
+def counterpartCharCode(char):
+	string=str(char)
+	if char =='$' or char=='5':
+	  return ord(char)
+	elif string.islower()==True:
+		return ord(string)-32
+	else:
+		return ord(string)+32
+    
+    
+    
