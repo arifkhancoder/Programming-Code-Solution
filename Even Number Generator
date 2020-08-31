@@ -1,0 +1,11 @@
+
+
+def find_even_nums(num):
+	list=[]
+	for i in range(2,num+1):
+		if i%2==0:
+			list.append(i)
+	return list
+  
+  
+	
