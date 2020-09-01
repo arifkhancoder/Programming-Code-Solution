@@ -1,0 +1,12 @@
+#solved By Md Ariful Islam
+
+
+def add_indexes(lst):
+	addValue=[]
+	for index,value in enumerate(lst) :
+		addValue.append(index+value)
+	return addValue
+	
+  
+  
+  
