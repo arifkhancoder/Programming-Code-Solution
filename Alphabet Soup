@@ -1,0 +1,4 @@
+#solved By Md Ariful Islam
+
+def alphabet_soup(txt):
+	return ''.join(sorted(txt))
