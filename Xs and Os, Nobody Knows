@@ -1,0 +1,14 @@
+
+#solved By Md Ariful Islam
+
+
+def XO(string):
+	if string.lower().count('o')==string.lower().count('x'):
+		return True
+	elif 'x' not in string.lower() and 'o' not in string.lower():
+		return True
+	else:
+		return False
+	
+  
+  
