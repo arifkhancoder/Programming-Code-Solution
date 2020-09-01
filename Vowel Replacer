@@ -1,0 +1,10 @@
+#solved By Md Ariful Islam
+
+def replace_vowels(txt, ch):
+    vowels = ['a', 'e', 'i', 'o', 'u']
+    for c in txt:
+        if c.lower() in vowels:
+            txt = txt.replace(c, ch)
+    return txt
+    
+    
