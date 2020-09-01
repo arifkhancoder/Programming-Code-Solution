@@ -1,0 +1,13 @@
+
+#solved By Md Ariful Islam
+
+def jazzify(lst):
+	newString=[]
+	for i in  lst:
+		if i.endswith('7'):
+			newString.append(i)
+		else:
+			newString.append(i+'7')
+	return newString
+  
+  
