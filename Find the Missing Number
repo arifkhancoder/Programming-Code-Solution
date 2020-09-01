@@ -1,0 +1,11 @@
+
+#solved By Md Ariful Islam
+
+def missing_num(lst):
+	size=len(lst)+1
+	total=(size*(size+1))//2
+	sumlst=sum(lst)
+	return total-sumlst
+  
+  
+  
