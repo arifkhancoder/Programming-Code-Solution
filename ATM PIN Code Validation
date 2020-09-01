@@ -1,0 +1,11 @@
+
+#solved By Md Ariful Islam
+
+
+def is_valid_PIN(string):
+	if string.isdigit()==True and len(string)==4 or len(string)== 6:
+		return True
+	else:
+		return False
+    
+    
