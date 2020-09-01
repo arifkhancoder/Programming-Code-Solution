@@ -1,0 +1,8 @@
+
+#solved By Md Ariful Islam
+
+import numpy
+def trace(lst):
+	return numpy.trace(lst)	
+  
+  
