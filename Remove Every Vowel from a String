@@ -1,0 +1,11 @@
+#solved by Md Ariful Islam
+
+def remove_vowels(txt):
+    vowels = ('a', 'e', 'i', 'o', 'u','A','E','I','O','U')
+    for i in txt:
+        if i in vowels:
+            txt = txt.replace(i,'')
+    return txt
+	
+  
+  
