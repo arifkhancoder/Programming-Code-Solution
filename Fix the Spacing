@@ -1,0 +1,6 @@
+#solved By Md Ariful Islam
+
+def correct_spacing(sentence):
+	return ' '.join(sentence.split())
+  
+  
