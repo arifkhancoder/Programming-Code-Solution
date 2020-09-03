@@ -1,0 +1,7 @@
+#solved By Md Ariful Islam
+
+def profit_margin(cost_price, sales_price):
+    totalProfit=((sales_price-cost_price)/sales_price)*100
+    return str(round(totalProfit,1)) +'%'
+    
+    
