@@ -1,0 +1,9 @@
+#solved By Md Ariful Islam
+
+def oddeven(lst):
+	trueFalse=[ True if i%2!=0 else False for i in lst]
+	if trueFalse.count(True)>trueFalse.count(False):
+		return True
+	return False
+  
+  
