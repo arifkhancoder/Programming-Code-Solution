@@ -1,0 +1,11 @@
+
+#solved By Md Ariful Islam
+
+def index_of_caps(word):
+	list=[]
+	for i in word:
+		if i.isupper() and chr(ord(i)):
+			list.append(word.index(i))
+	return list
+  
+  
