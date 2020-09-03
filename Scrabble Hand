@@ -1,0 +1,9 @@
+#solved By Md Ariful Islam
+
+def maximum_score(tile_hand):
+	sum=0
+	for i in range(0,len(tile_hand)):
+		sum+=tile_hand[i].get('score')
+	return sum
+	
+  
