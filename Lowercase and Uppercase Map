@@ -1,0 +1,8 @@
+#solved By Md Ariful Islam
+
+def mapping(letters):
+	dict={}
+	for i in letters:
+		dict[i]=i.upper()
+	return dict
+	
