@@ -1,0 +1,9 @@
+#solved By Md Ariful Islam
+
+def evenly_divisible(a, b, c):
+	list=[]
+	for i in range(a,b+1):
+		if i %c==0:
+			list.append(i)
+	return sum(list)
+  
