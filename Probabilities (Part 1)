@@ -1,0 +1,7 @@
+#solved By Md Ariful Islam
+
+def probability(lst, n):
+	a = (filter(lambda x: x >=n, lst))
+	b = list(a)
+	return round((len(b)/len(lst))*100, 1)
+  
