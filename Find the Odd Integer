@@ -1,0 +1,9 @@
+#solved By Md Ariful Islam
+
+def find_odd(lst):
+	res=0
+	for i in lst:
+		res=res^i
+	return res
+	
+  
