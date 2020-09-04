@@ -1,0 +1,9 @@
+#solved By Md Ariful Islam
+
+def first_and_last(s):
+	list=[]
+	list.append(''.join(sorted(s)))
+	list.append(list[0][::-1])
+	return list
+	
+  
