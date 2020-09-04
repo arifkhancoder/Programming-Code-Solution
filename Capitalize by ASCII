@@ -1,0 +1,11 @@
+#solved By Md Ariful Islam
+
+def ascii_capitalize(txt):
+	list=[]
+	for i in txt:
+		if ord(i)%2==0:
+			list.append(i.upper())
+		else:
+			list.append(i.lower())
+	return ''.join(list)
+	
