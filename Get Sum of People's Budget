@@ -1,0 +1,9 @@
+#solved By Md Ariful Islam
+
+def get_budgets(lst):
+	sum=0
+	for i in range(len(lst)):
+		sum+=lst[i].get('budget')
+	return sum
+	
+  
