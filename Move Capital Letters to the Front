@@ -1,0 +1,14 @@
+#solved By Md Ariful Islam
+
+def cap_to_front(s):
+	Upperlist=[]
+	list=[]
+	for i in s:
+		if i.isupper():
+			Upperlist.append(i)
+		else:
+			list.append(i)
+	concate=''.join(Upperlist)+''.join(list)
+	return concate
+  
+  
