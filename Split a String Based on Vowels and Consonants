@@ -1,0 +1,8 @@
+#solved By Md Ariful Islam
+
+def split(txt):
+	vowels=('a', 'e', 'i', 'o', 'u')
+	is_vowel=''.join([i for i in txt if i in vowels])
+	is_consonant=''.join([i for i in txt if i not in vowels])
+	return is_vowel+is_consonant
+  
