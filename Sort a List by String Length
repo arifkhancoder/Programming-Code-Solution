@@ -1,0 +1,7 @@
+#solved By Md Ariful Islam
+
+def sort_by_length(lst):
+	lst.sort(key=len)
+	return lst
+	
+  
