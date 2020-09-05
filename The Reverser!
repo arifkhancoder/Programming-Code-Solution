@@ -1,0 +1,6 @@
+#solved By Md Ariful Islam
+
+def reverse(txt):
+	return txt[::-1].swapcase()
+  
+  
