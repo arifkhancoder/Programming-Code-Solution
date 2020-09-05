@@ -1,0 +1,6 @@
+#solved By Md Ariful Islam
+
+def vow_replace(word, vowel):
+	return word.translate(str.maketrans({'a':vowel,'i':vowel,'e':vowel,'o':vowel,'u':vowel}))
+  
+	
