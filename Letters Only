@@ -1,0 +1,6 @@
+#solved By Md Ariful Islam
+
+def letters_only(txt):
+	return ''.join(filter(str.isalpha,txt))
+  
+  
