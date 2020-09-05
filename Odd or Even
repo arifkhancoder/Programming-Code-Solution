@@ -1,0 +1,6 @@
+solved By Md Ariful Islam
+
+def oddOrEven(str):
+	return True if len(str)%2==0 else False
+  
+  
