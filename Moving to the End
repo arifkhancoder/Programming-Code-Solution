@@ -1,0 +1,14 @@
+#solved By Md Ariful Islam
+
+
+def move_to_end(nums, num):
+	for i in nums:
+		if num in nums:
+			nums.index(num)
+			nums.remove(num)
+			nums.append(num)
+		else:
+			nums.append(num)
+	return nums
+  
+  
