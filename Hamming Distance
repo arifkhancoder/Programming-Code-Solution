@@ -1,0 +1,10 @@
+#solved By Md Ariful Islam
+
+def hamming_distance(txt1, txt2):
+	distance=0
+	for i in range(len(txt1)):
+		if txt1[i]!=txt2[i]:
+			distance+=1
+	return distance
+	
+  
