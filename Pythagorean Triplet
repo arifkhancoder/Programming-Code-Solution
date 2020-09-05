@@ -1,0 +1,8 @@
+#solved By Md Ariful Islam
+
+def is_triplet(n1, n2, n3):
+	list=[n1,n2,n3]
+	sList=sorted(list)
+	return sList[0]**2 + sList[1]**2 ==sList[2]**2
+  
+  
