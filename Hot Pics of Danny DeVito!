@@ -1,0 +1,10 @@
+#solved By Md Ariful Islam
+
+def prevent_distractions(txt):
+	string=["anime","meme","vines","roasts","Danny DeVito"]
+	result=any([True for i in string if i in txt])
+	if result==True:
+		return "NO!"
+	else:
+		return "Safe watching!"
+
