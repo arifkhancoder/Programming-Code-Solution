@@ -1,0 +1,18 @@
+#solved By Md Ariful Islam
+
+def eda_bit(start, end):
+	list=[]
+	for i in range(start,end+1):
+		if i%3==0 and i%5==0:
+			list.append('EdaBit')
+			continue
+		elif i%5==0:
+			list.append('Bit')
+			continue
+		elif i%3==0:
+			list.append('Eda')
+			continue
+		list.append(i)
+	return list
+  
+  
