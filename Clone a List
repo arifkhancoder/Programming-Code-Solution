@@ -1,0 +1,7 @@
+#solved By Md Ariful Islam
+
+def clone(lst):
+	lst.append(list(lst))
+	return lst
+  
+  
