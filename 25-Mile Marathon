@@ -1,0 +1,10 @@
+#solved By Md Ariful Islam
+
+def marathon_distance(d):
+	distance=sum([abs(i) for i in d])
+	if distance==25:
+		return True
+	else:
+		return False
+	
+  
