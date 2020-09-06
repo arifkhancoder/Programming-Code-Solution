@@ -1,0 +1,9 @@
+#solved By Md Ariful Islam
+
+def in_box(lst):
+	list=''.join(lst)
+	if '*' in list:
+		return True
+	else:
+		return False
+    
