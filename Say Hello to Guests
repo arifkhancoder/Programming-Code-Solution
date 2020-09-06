@@ -1,0 +1,9 @@
+#solved By Md Ariful Islam
+
+def greet_people(names):
+	list=[]
+	for i in names:
+		list.append('Hello '+i)
+	return ', '.join(list)
+	
+  
