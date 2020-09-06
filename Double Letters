@@ -1,0 +1,9 @@
+#solved by Md Ariful Islam
+
+def double_letters(s):
+	for i in s:
+		if i+i in s:
+			return True
+	return False
+	
+  
