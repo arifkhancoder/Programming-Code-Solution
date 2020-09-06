@@ -1,0 +1,9 @@
+#solved By Md Ariful Islam
+
+def fix_import(s):
+	fromIndex=s.find('from')
+	importIndex=s.find('import')
+	firstpart=s[fromIndex::]
+	secondpart=s[importIndex:fromIndex]
+	return firstpart+' '+secondpart.rstrip()
+
