@@ -1,0 +1,8 @@
+#solved By Md Ariful Islam
+
+def euclidean(a, b):
+	if a==0:
+		return b
+	return euclidean(b%a,a)
+  
+  
