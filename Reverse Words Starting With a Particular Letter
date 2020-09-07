@@ -1,0 +1,13 @@
+#solved By Md Ariful Islam
+
+def special_reverse(s, c):
+	ksplit = s.split()
+	result = ''
+	for i in ksplit:
+		if i[0] == c:
+			result += i[::-1]+' '
+		else:
+			result += i+' '
+
+	return result.rstrip()
+  
