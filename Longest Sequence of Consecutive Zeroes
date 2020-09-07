@@ -1,0 +1,5 @@
+#sovled By Md Ariful Islam
+
+def longest_zero(s):
+	return max([i for i in s.split('1')])
+  
