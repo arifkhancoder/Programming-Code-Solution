@@ -1,0 +1,10 @@
+#solved By Md Ariful Islam
+
+def find_nemo(s):
+    l = s.split()
+    for i in l:
+        if i == 'Nemo':
+            return "I found Nemo at " + str(l.index(i) + 1) + "!"
+    return "I can't find Nemo :("
+	
+  
