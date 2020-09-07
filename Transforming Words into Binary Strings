@@ -1,0 +1,12 @@
+#solved By Md Ariful Islam
+
+def convert_binary(s):
+	str = ''
+	for i in s.lower():
+		if i in 'abcdefghijklm':
+			str += '0'
+		else:
+			str += '1'
+	return str
+	
+  
