@@ -1,0 +1,6 @@
+#solved By Md Ariful Islam
+
+def count_towers(towers):
+	return max([k for i in towers for k in i]).count('##')
+  
+  
