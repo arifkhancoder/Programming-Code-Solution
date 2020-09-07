@@ -1,0 +1,11 @@
+#solved By Md Ariful Islam
+def minutes_to_seconds(time):
+	time = time.split(':')
+	hours=0
+	if int(time[1]) >= 0 and int(time[1]) <60:
+		hours = int(time[0]) *60+int(time[1])
+		return hours
+	else:
+		return False
+    
+    
