@@ -1,0 +1,9 @@
+#solved By Md Ariful Islam
+
+def apocalyptic(n):
+	number=str(2**n)
+	if '666' in number:
+		return 'Repent! '+ str(number.find('666')) +' days until the Apocalypse!'
+	else:
+		return "Crisis averted. Resume sinning."
+
