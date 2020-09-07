@@ -1,0 +1,5 @@
+#solved By Md Ariful Islam
+
+def reverse(lst):
+	return lst[::-1]
+  
