@@ -1,0 +1,10 @@
+#solved By Md Ariful Islam
+
+def steps_to_convert(txt):
+	upper=[i for i in txt if i.isupper()]
+	lower=[i for i in txt if i.islower()]
+	if len(upper)>len(lower):
+		return len(lower)
+	else:
+		return len(upper)
+    
