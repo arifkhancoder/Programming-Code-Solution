@@ -1,0 +1,13 @@
+#solved By Md Ariful Islam
+
+def chatroom_status(list):
+	if list==[]:
+		return "no one online"
+	elif len(list)==1:
+		return list[0]+' online'
+	elif len(list)==2:
+		return list[0] +' and '+list[1]+ ' online'
+	else:
+		return list[0] + ', ' + list[1] + ' and '+str(len(list)-2)+' more online'
+	
+  
