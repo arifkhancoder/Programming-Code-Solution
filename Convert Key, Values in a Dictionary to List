@@ -1,0 +1,5 @@
+#solved By Md Ariful Islam
+
+def dict_to_list(s):
+	return sorted([i for i in sorted(zip(s.keys(),s.values()))])
+  
