@@ -1,0 +1,9 @@
+#solved By Md Ariful Islam
+
+def palindrome_set(lst):
+	lph=[[x for x in y if x.isalpha()] for y in lst]
+	dgt=[[x for x in y if x.isnumeric()] for y in lst]
+	lst=[[1 if x and x==x[::-1] else 0, 1 if y and y==y[::-1] else 0] for x,y in zip(lph,dgt)]
+	return [sum(x) for x in lst]
+  
+  
