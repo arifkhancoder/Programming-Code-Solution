@@ -1,0 +1,6 @@
+#solved By Md Ariful Islam
+
+def get_xp(s):
+	return str(s['Very Easy']*5+s['Easy']*10+s['Medium']*20+s['Hard']*40+s['Very Hard']*80 )+ 'XP'
+	
+  
