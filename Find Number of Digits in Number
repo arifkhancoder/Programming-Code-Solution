@@ -1,0 +1,6 @@
+#solved By Md Ariful Islam
+
+def num_of_digits(num):
+	s=str(num)
+	return sum([1  for i in s if i in '0123456789' ])
+  
