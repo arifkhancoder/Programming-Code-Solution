@@ -1,0 +1,5 @@
+#solved By Md Ariful Islam
+
+def owofied(sentence):
+	return sentence.replace('i','wi').replace('e','we') + ' owo'
+  
