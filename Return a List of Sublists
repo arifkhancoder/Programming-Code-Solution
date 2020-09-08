@@ -1,0 +1,11 @@
+#solved By Md Ariful Islam
+
+def matrix(x, y, z):
+	list=[]
+	for i in range(x):
+		newList = []
+		for j in range(y):
+			newList.append(z)
+		list.append(newList)
+	return list
+  
