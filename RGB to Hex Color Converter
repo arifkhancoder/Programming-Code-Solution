@@ -1,0 +1,8 @@
+#solved By Md Ariful Islam
+
+def rgb_to_hex(col):
+	s=col
+	values=s[4:-1].split(',')
+	hex='#'+''.join(['%02x' % int(i) for i in values ])
+	return str(hex)
+  
