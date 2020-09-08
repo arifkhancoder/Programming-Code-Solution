@@ -1,0 +1,11 @@
+#solved By Md Ariful Islam
+
+def factor_group(num):
+	factors=[]
+	for i in range(1,num+1):
+		if num%i==0:
+		   factors.append(i)
+
+	return 'even' if len(factors)%2==0 else 'odd'
+	
+  
