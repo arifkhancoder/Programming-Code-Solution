@@ -1,0 +1,11 @@
+#solved By Md Ariful Islam
+
+def count_palindromes(num1, num2):
+	list=[]
+	for i in range(num1,num2+1):
+		stringNumber = str(i)
+		if i==int(stringNumber[::-1]):
+			list.append(True)
+	return len(list)
+  
+  
