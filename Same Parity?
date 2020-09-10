@@ -1,0 +1,12 @@
+#sovled By Md Ariful Islam
+
+def parity_analysis(num):
+	sumDigits=sum([int(i) for i in str(num)])
+	if num==sumDigits:
+		return True
+	elif num%2!=0 and sumDigits%2!=0:
+		return True
+	else:
+		return False
+	
+  
