@@ -1,0 +1,5 @@
+#solved By Md Ariful Islam
+
+import re
+
+pattern = "\w+"
