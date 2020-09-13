@@ -1,0 +1,6 @@
+#solved By Md Ariful Islam
+
+def remove_dups(lst):
+	sl=set()
+	return [i for i in lst if not (i in sl or sl.add(i))]
+  
