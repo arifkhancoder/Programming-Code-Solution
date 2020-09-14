@@ -1,0 +1,7 @@
+#solved By Md Ariful Islam
+
+def retrieve(txt):
+	remspace=txt.replace('.','')
+	return [i for i in remspace.lower().split() if i[0] in 'aeiou']
+  
+  
