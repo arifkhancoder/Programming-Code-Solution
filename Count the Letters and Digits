@@ -1,0 +1,6 @@
+#solved By Md Ariful Islam
+
+def count_all(s):
+	return { 'LETTERS':sum([1 for i in s.lower() if i.isalpha()]), 'DIGITS':sum([1 for i in s.lower() if i.isdigit()]) }
+	
+  
