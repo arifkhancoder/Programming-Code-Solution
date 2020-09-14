@@ -1,0 +1,7 @@
+#solved By Md Ariful Islam
+
+def maskify(s):
+	k=len(s)-len(s[-4:])
+	return k*'#'+s[-4:]
+  
+  
