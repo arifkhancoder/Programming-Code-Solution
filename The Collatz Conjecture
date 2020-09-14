@@ -1,0 +1,17 @@
+#solved By Md Ariful Islam
+
+def collatz(num):
+    list=[]
+    while num > 1:
+        if (num % 2):
+            # num is odd
+            num = 3 * num + 1
+            list.append(num)
+        else:
+            # num is even
+            num = num // 2
+            list.append(num)
+    list.append(1)
+    return len(list)-1
+    
+    
