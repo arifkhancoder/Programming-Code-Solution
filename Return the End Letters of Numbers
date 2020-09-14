@@ -1,0 +1,9 @@
+#sovled By Md Ariful Islam
+
+def return_end_of_number(num):
+	d = {1: 'ST', 2: 'ND', 3: 'RD'}
+	if int(str(num)[-2:])==11 or int(str(num)[-2:])==12 or int(str(num)[-2:])==13:
+		return str(num)+'-'+'TH'
+	return '{}-{}'.format(num, d.get(num%10, 'TH'))
+  
+  
