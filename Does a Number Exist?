@@ -1,0 +1,9 @@
+#solved By Md Ariful Islam
+
+def valid_str_number(n):
+	try:
+		number=float(n[0:])
+		return True
+	except:
+		return False
+    
