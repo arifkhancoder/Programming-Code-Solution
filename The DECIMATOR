@@ -1,0 +1,9 @@
+#solved By Md Ariful Islam
+
+import math
+def DECIMATOR(txt):
+	if len(txt)>1:
+		return txt[:- math.ceil(len(txt)/10)]
+	return ''
+	
+  
