@@ -1,0 +1,8 @@
+#solved By Md Ariful Islam
+
+def letter_check(lst):
+	firstString=[j for i in lst[0].lower().split() for j in i]
+	secondString=[j for i in lst[1].lower().split() for j in i]
+	return all([True if i in firstString else False for i in secondString ])
+	
+  
