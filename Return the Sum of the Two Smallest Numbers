@@ -1,0 +1,10 @@
+#solved By Md Ariful Islam
+
+def sum_two_smallest_nums(lst):
+	s=[i for i in lst if i>0]
+	first=min(s)
+	list.remove(s,first)
+	second=min(s)
+	return first+second
+  
+  
