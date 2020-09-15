@@ -1,0 +1,6 @@
+#solved By Md Ariful Islam
+
+def high_low(txt):
+	num=[int(i) for i in txt.split(' ')]
+	return str(max(num))+' '+str(min(num))
+  
