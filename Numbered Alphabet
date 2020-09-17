@@ -1,0 +1,12 @@
+#solved By Md Ariful Islam
+
+import string
+def alph_num(txt):
+	allAscii = [i for i in string.ascii_uppercase]
+	strn=''
+	for i in txt:
+		if i in allAscii:
+		   strn+=' '+ ''.join(str(allAscii.index(i)))
+	return strn.lstrip()
+  
+  
