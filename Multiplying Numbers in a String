@@ -1,0 +1,6 @@
+#solved By Md Ariful Islam
+
+def multiply_nums(nums):
+	return eval(nums.replace(',','*'))
+  
+  
