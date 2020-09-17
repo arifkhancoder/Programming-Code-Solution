@@ -1,0 +1,9 @@
+#solved By Md Ariful Islam
+
+def catch_zero_division(expr):
+	try:
+		if isinstance(round(eval(expr)),int)==True:
+			return False
+	except ZeroDivisionError:
+		return True
+
