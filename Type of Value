@@ -1,0 +1,21 @@
+#solved By Md Ariful Islam
+
+def get_type(s):
+    if type(s)==int:
+        return 'int'
+    elif type(s)==bool:
+        return 'bool'
+    elif type(s)== set:
+        return 'set'
+    elif type(s)==tuple:
+        return 'tuple'
+    elif type(s)== list:
+        return 'list'
+    elif type(s)== dict:
+        return 'dict'
+    elif type(s)== str:
+        return 'str'
+    else:
+        return 'NoneType'
+	
+  
