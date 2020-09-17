@@ -1,0 +1,14 @@
+#solved By Md Ariful Islam
+
+def scale_tip(lst):
+	k=round(len([i for i in lst if not i=='I'])/2)
+	left=sum(lst[:k])
+	right=sum(lst[-k:])
+	if left==right:
+		return 'balanced'
+	elif right>left:
+		return 'right'
+	else:
+		return 'left'
+    
+    
