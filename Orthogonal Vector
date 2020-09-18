@@ -1,0 +1,7 @@
+#solved By Md Ariful Islam
+
+import numpy
+def is_orthogonal(first, second):
+	return numpy.dot(first,second)==0
+  
+  
