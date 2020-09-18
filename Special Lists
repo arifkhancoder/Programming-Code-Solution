@@ -1,0 +1,13 @@
+#solved By Md Ariful Islam
+
+def is_special_array(lst):
+	listTF = []
+	for i, j in enumerate(lst):
+		if i % 2 == 0 and j % 2 == 0:
+			listTF.append(True)
+		elif i%2!=0 and j%2!=0:
+			listTF.append(True)
+		else:
+			listTF.append(False)
+	return all(listTF)
+  
