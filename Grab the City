@@ -1,0 +1,6 @@
+#solved By Md Ariful Islam
+
+def grab_city(txt):
+	return txt.replace(']','').split('[')[-1]
+  
+  
