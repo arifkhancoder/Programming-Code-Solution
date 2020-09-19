@@ -1,0 +1,15 @@
+#solved By Md Ariful Islam
+
+def format_math(expr):
+    newSNum=expr.split()
+    if newSNum[1]=='+':
+        return newSNum[0]+' '+newSNum[1]+' '+newSNum[2]+' = '+ str(int(newSNum[0])+int(newSNum[2]))
+    elif newSNum[1]=='-':
+        return newSNum[0]+' '+newSNum[1]+' '+newSNum[2]+' = '+ str(int(newSNum[0])-int(newSNum[2]))
+    elif newSNum[1]=='x':
+        return newSNum[0]+' '+newSNum[1]+' '+newSNum[2]+' = '+ str(int(newSNum[0])*int(newSNum[2]))
+    else:
+        return newSNum[0]+' '+newSNum[1]+' '+newSNum[2]+' = '+ str(int(newSNum[0])//int(newSNum[2]))
+	
+  
+  
