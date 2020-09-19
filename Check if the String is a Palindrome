@@ -1,0 +1,7 @@
+#solved By Md Ariful Islam
+
+def is_palindrome(txt):
+    s = ''.join(txt.lower().replace('!', '').replace('-', '').replace(',', '').split())
+    return s == s[::-1]
+	
+  
