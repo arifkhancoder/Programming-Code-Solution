@@ -1,0 +1,7 @@
+#solved By Md Ariful Islam
+
+import re
+def remove_special_characters(txt):
+	return re.sub('[^A-Za-z0-9-_\s]','',txt)
+  
+  
