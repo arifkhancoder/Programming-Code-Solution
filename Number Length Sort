@@ -1,0 +1,7 @@
+#solved By Md Ariful Islam
+
+def number_len_sort(lst):
+	news=[str(i) for i in lst]
+	return [int(i) for i in sorted(news,key=len)]
+  
+  
