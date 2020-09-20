@@ -1,0 +1,9 @@
+#solved By Md Ariful Islam
+
+def unique_lst(lst):
+	if lst==[]:
+		return []
+	else:
+		return list(dict.fromkeys(filter(lambda x:x>0,lst)))
+    
+    
