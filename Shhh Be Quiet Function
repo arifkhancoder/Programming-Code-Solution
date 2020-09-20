@@ -1,0 +1,9 @@
+#solved By Md Ariful Islam
+
+def shhh(txt):
+	if txt=='':
+		return '""'+", whispered Edabit."
+	else:
+		return '"'+txt.capitalize()+'"'+", whispered Edabit."
+	
+  
