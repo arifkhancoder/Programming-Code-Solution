@@ -1,0 +1,19 @@
+#solved By Md Ariful Islam
+
+def first_non_repeated_character(txt):
+    dict={}
+    list=[]
+
+    for i in txt:
+        if i in dict:
+            dict[i]+=1
+        else:
+            dict[i]=1
+        list.append(i)
+
+    for i in list:
+        if dict[i]==1:
+            return i
+    return False
+	
+  
