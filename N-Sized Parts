@@ -1,0 +1,8 @@
+#solved By Md Ariful Islam
+
+def partition(txt, n):
+	list=[]
+	for i in range(0,len(txt),n):
+		list.append(txt[i:i+n])
+	return list
+  
