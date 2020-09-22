@@ -1,0 +1,11 @@
+#solved By Md Ariful Islam
+
+def magic(txt):
+	news=txt.split(" ")
+	if str(int(news[1])*int(news[0])) in txt[-2:]:
+		return True
+	else:
+		return False
+    
+    
+    
