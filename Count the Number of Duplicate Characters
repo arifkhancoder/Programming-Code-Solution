@@ -1,0 +1,6 @@
+#sovled By Md Ariful Islam
+
+def duplicate_count(txt):
+	return len([x for x in set(txt) if txt.count(x) > 1])
+	
+  
