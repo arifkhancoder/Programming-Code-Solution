@@ -1,0 +1,13 @@
+#solved By Md Ariful Islam
+
+def partially_hide(phrase):
+	l=phrase.split()
+	list=[]
+	for i in l:
+		if len(i)==2:
+			list.append(i)
+		else:
+			list.append(i[0]+(len(i[0::])-2)*'-'+i[-1])
+	return ' '.join(list)
+	
+  
