@@ -1,6 +1,0 @@
-#solved By Md Ariful Islam
-
-def doubled_pay(n):
-	return int((1*(2**n - 1)) / (2-1))
-  
-  
