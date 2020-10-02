@@ -1,0 +1,17 @@
+def sum_primes(lst):
+	list=[]
+	for i in lst:
+		if i<=1:
+			continue
+		is_prime=True
+		for j in range(2,i):
+			if i%j==0:
+				is_prime=False
+				break
+
+		if is_prime==True:
+			list.append(i)
+	if list!=[]:
+		return sum(list)
+	else:
+		return None
