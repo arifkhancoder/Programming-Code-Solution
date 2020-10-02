@@ -1,0 +1,10 @@
+def char_index(word, char):
+    firstindex=word.find(char)
+    lastinedx=-1
+    for i in range(0,len(word)):
+        if char==word[i]:
+            lastinedx=i
+    if firstindex!=-1 or lastinedx!=-1:
+        return [firstindex,lastinedx]
+    else:
+        return None
