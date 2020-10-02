@@ -1,0 +1,10 @@
+def emotify(txt):
+    if txt.split()[-1]=='smile':
+        return "Make me :D"
+    elif txt.split()[-1]=='sad':
+        return "Make me :("
+    elif txt.split()[-1]=='mad':
+        return "Make me :P"
+    else:
+        return "Make me :)"
+	
