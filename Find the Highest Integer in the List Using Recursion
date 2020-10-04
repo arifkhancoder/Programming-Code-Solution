@@ -1,0 +1,6 @@
+def find_highest(lst):
+	if len(lst)==1:
+		return lst[0]
+	else:
+		m=find_highest(lst[1:])
+		return m if m>lst[0] else lst[0]
