@@ -1,0 +1,8 @@
+def simplify(txt):
+	num=[int(i) for i in txt.split('/')]
+	if num[0]%num[1]==0:
+		return str(num[0]//num[1])
+	for i in range(min(num[0],num[1]),1,-1):
+		if num[0]%i==0 and num[1]%i==0:
+			return '{}/{}'.format(num[0]//i,num[1]//i)
+	return txt
