@@ -1,0 +1,8 @@
+def how_many_missing(lst):
+	count=0
+	if len(lst)>0:
+		for i in range(min(lst),max(lst)+1):
+			if i not in lst:
+				count+=1
+		return count
+	return 0
