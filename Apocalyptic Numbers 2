@@ -1,0 +1,11 @@
+def is_apocalyptic(number):
+	value=str(2**number)
+	if value.count('666')==0:
+		return 'Safe'
+	elif value.count('666')==1:
+		return 'Single'
+	elif value.count('666')==2:
+		return 'Double'
+	elif value.count('666')==3:
+		return 'Triple'
+	
