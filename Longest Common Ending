@@ -1,0 +1,8 @@
+def longest_common_ending(txt1, txt2):
+    for i in range(0, len(txt2)):
+        if txt1.endswith(txt2[i:]):
+            return txt2[i:]
+        elif txt2.endswith(txt1[i:]):
+            return txt1[i:]
+    return ''
+	
