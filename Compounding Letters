@@ -1,0 +1,5 @@
+def accum(txt):
+	lst = []
+	for i, j in enumerate(txt):
+		lst.append(j * (i + 1))
+	return '-'.join(lst).title()
